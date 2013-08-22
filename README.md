@@ -1,15 +1,10 @@
-/* TilelyTiles
- * Written by Kacey Coughlin
- * Creative Commons license
- */
-
 TileyTiles
 ==========
 
 UI tiles similar to Metro style tiles, using ONLY CSS3, no Javascript! This way, it can easily be used in a Script Editor Webpart for SharePoint!
-If using in Script Editor Webpart: Just copy the code in the demo.html file (only stuff between <style> and <body>, leave everything else out.
+If using in Script Editor Webpart: Just copy the code in the demo.html file (only stuff between style and body tags, leave everything else out.
 
-Useage
+Usage
 ======
 
 File out links on each tile within the "label":
@@ -47,3 +42,8 @@ There are 2 containers for different float combinations:
 -mini-container: floats left
 -micro-container: no float (used inside mini-container)
 
+License
+=======
+Copyright (c) 2012 Crafted Pixelz
+
+Licensed under the MIT license
