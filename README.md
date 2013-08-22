@@ -44,6 +44,6 @@ There are 2 containers for different float combinations:
 
 License
 =======
-Copyright (c) 2012 Crafted Pixelz
+Copyright (c) 2013 Kacey Coughlin
 
 Licensed under the MIT license
