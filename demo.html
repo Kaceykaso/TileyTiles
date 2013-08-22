@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="DESCRIPTION" content="">
+<meta name="author" content="Kacey Coughlin, kaceycoughlin@mac.com">
+<title></title>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- styles -->
+<style>
+.container {
+  background: #008FD9;
+  height: 100%;
+  padding-top: 20px;
+  width: 100%;
+}
+.container a {
+  line-height: 30px;
+  margin: 10px;
+  padding: 5px;
+  text-align: left;
+  text-decoration: none;
+}
+.container a:hover {
+  background-color: #ccc;
+}
+.mini-container {
+  float: left;
+  margin:0;
+  padding:0;
+}
+.micro-container {
+  margin:0;
+  padding: 0;
+}
+.tiles {
+  background: #ffffff;
+  margin: 5px 10px;
+  overflow: hidden;
+  position: relative;
+  -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;  
+    -o-transition: all 0.5s ease-in-out;  
+    -ms-transition: all 0.5s ease-in-out;  
+    transition: all 0.5s ease-in-out;
+}
+.tiles:hover {
+  cursor: pointer;
+ -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -o-transform: scale(1.15);
+  -ms-trasnform: scale(1.15);
+  transform: scale(1.15); 
+}
+.tile1 img {
+  margin: 10% 10%;
+}
+.tile2 img {
+  margin: 6% 30%;
+  width: -50%;
+}
+.tile3 img {
+  margin: 30% 30%;
+}
+.label {
+  background: #eee;
+  bottom: 0;
+  color: #038EE0;
+  font-size: 14px;
+  font-weight: bold;
+  height: 0%;
+  position: absolute;
+  opacity: 0.75;
+  filter: opacity(75%);
+  width: 100%;
+  -webkit-transition: height 0.5s linear;
+    -moz-transition: height 0.5s linear;  
+    -o-transition: height 0.5s linear;  
+    -ms-transition: height 0.5s linear;  
+    transition: height 0.5s linear;
+}
+.tiles:hover .label {
+  height: 50%;
+}
+.tile1 {
+  float: left;
+  height: 125px;
+  width: 125px;
+}
+.tile2 {
+  height: 125px;
+  width: 250px;
+}
+.tile3 {
+  float: left;
+  height: 260px;
+  width: 260px;
+}
+.tiles ul {
+  margin-top: -5px;
+}
+.tiles ul li, .tiles ul li a {
+  list-style-type: none;
+  font-weight: normal;
+  font-size: 12px; 
+  line-height: 1.25;
+  margin: 0;
+  padding:0;
+  color: #505050;
+}
+.adjust {
+  width: 270px;
+}
+.adjust2 {
+  margin-bottom: 10px;
+}
+.clearfloat {
+  clear:both;
+  height:0;
+  font-size:1px;
+  line-height:0px;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+	<div class="mini-container">
+		<div class="tile2 tiles adjust" onclick="">
+		    <img src="img/question.png">
+		    <div class="label">
+		        <a href="">FAQ</a>
+                        <ul>
+                            <li>Have a question or problem?</li>
+                       </ul>
+		    </div>
+		</div>
+		<div class="micro-container">
+			<div class="tile1 tiles" onclick="">
+			    <img src="img/info.png">
+			    <div class="label">
+			        <a href="">Subsite 1</a>
+			    </div>
+			</div>
+			<div class="tile1 tiles" onclick="">
+			     <img src="img/info.png">
+			    <div class="label">
+			        <a href="">Subsite 2</a>
+			    </div>
+			</div>
+		</div>
+	</div>
+
+	<div class="tile3 tiles" onclick="">
+	    <img src="img/folder.png">
+	    <div class="label">
+	        <a href="">Library</a>
+                <ul>
+                    <li><a href="">Subfolder 1</a></li>
+                    <li><a href="">Subfolder 2</a></li>
+                    <li><a href="">Subfolder 3</a></li>
+                    <li><a href="">Subfolder 4</a></li>
+                </ul>
+	    </div>
+	</div>
+
+	<div class="mini-container">
+		<div class="micro-container" onclick="">
+			<div class="tile1 tiles">
+			    <img src="img/files.png">
+			    <div class="label">
+			        <a href="">Important Docs</a>
+			    </div>
+			</div>
+		</div>
+		<div class="micro-container">
+			<div class="tile1 tiles" onclick="">
+			    <img src="img/files.png">
+			    <div class="label">
+			        <a href="">Other Docs</a>
+                                <ul>
+                                    <li>Notes</li>
+                                </ul>
+			    </div>
+			</div>
+		</div>
+	</div>
+
+	<div class="mini-container">
+		<div class="tile2 tiles adjust2" onclick="">
+		    <img src="img/tools.png">
+		    <div class="label">
+		        <a href="img/tools.png">Tools</a>
+                        <ul>
+                            <li>Tools for things</li>
+                        </ul>
+		    </div>
+		</div>
+		<div class="tile2 tiles adjust2" onclick="">
+		    <img src="img/edit.png">
+		    <div class="label">
+		        <a href="">Updates</a>
+                        <ul>
+                              <li><a href="">Update Steering Committee</a></li>
+                              <li><a href="">Update Schedule</a></li>
+                        </ul>
+		    </div>
+		</div>
+	</div>
+	
+	<div class="mini-container">
+		<div class="micro-container">
+			<div class="tile1 tiles" onclick="">
+			     <img src="img/conversation.png">
+			    <div class="label">
+			        <a href="">Messages</a>
+			    </div>
+			</div>
+			<div class="tile1 tiles" onclick="">
+			     <img src="img/folder.png">
+			    <div class="label">
+			        <a href="">Pictures</a>
+			    </div>
+			</div>
+		</div>
+		<div class="micro-container">
+			<div class="tile1 tiles" onclick="">
+			    <img src="img/links.png">
+			    <div class="label">
+			        <a href="">Links</a>
+			    </div>
+			</div>
+			<div class="tile1 tiles" onclick="">
+			     <img src="img/announcement.png">
+			    <div class="label">
+			        <a href="">Announcements</a>
+			    </div>
+			</div>
+		</div>
+	</div>
+	<br class="clearfloat">
+</div>
+
+</body>
+</html>
