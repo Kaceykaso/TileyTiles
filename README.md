@@ -1,5 +1,7 @@
 TileyTiles
 ==========
+UPDATE: New and improved Tiles 2.0! New animations, same great cross-browser SharePoint compatibility, with less code!
+Check out tiles2.html 
 
 UI tiles similar to Metro style tiles, using ONLY CSS3, no Javascript! This way, it can easily be used in a Script Editor Webpart for SharePoint!
 If using in Script Editor Webpart: Just copy the code in the demo.html file (only stuff between style and body tags, leave everything else out.
