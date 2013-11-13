@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+.container {background: transparent; font: 14px/1 Helvetica, sans-serif; height: auto; width: 100%;}
+.row {background: transparent; height: auto; overflow: hidden; position: relative; width: inherit;}
+.fltlft {float:left;}
+
+.tile {color: #2d2d2d; float: left; height: 200px; margin: 5px; overflow: hidden; padding: 5px 5px 10px 10px; text-align: center; width: 200px; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out;}
+.tile img {margin-top: 15px; width:100px;-webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out;}
+.tile h2 {color: #fff; font-size: 20px; text-align: left; line-height: 100px;-webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out;}
+.tile h2 a {color: inherit;padding: 5px; text-decoration: none;}
+.tile h2 a:hover {text-decoration:none; background: #fff; color: #3b3b3b;}
+.tile:hover { cursor: pointer; -webkit-transform: scale(1.10); -moz-transform: scale(1.10); -o-transform: scale(1.10); transform: scale(1.10);}
+.tile:hover h2 {line-height: 1;}
+.tile:hover img {margin-left:100px; width:50px;}
+
+.label {background:transparent; bottom: 0; color: inherit; font-size: 14px; height: 0%; line-height: 1.5; overflow: hidden; position: absolute; text-align: left; width: inherit; -webkit-transition: height 0.5s linear; -moz-transition: height: 0.5s linear; -o-transition: height 0.5s linear; transition: height 0.5s linear;}
+.tile:hover .label {height: 50%;}
+.label ul {indent: none;margin-left: -20px;}
+.label ul li {list-style: none;}
+.label ul li a {color: inherit; padding: 2px; text-decoration: none;}
+.label ul li a:hover { background: #2d2d2d; color:#fff;}
+
+.clearboth { clear:both;}
+.one {background: #c31010;}
+.two {background: #f3820f;}
+.three {background: #4d68b6;}
+.four {background: #03bd03;}
+.five {background: #c959c9;}
+.six {background: #27904c;}
+.seven {background: #ff6300;}
+.eight {background: #0096ff;}
+
+</style>
+</head>
+  <body>
+<div class="container">
+
+  <div class="row">
+  	<div class="fltlft">
+    	<div class="tile one">
+			<img src="img/docs.png">
+			<h2><a href="">Documents</a></h2>
+			<div class="label">
+				<ul>
+					<li><a href="#">Link</a></li>
+					<li><a href="">Link</a></li>
+					<li><a href="">More Links</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="tile two">
+			<img src="img/pictures.png">
+			<h2><a href="">Pictures</a></h2>
+			<div class="label">
+				<ul> 
+					<li><a href="">Link</a></li>
+					<li><a href="">Link</a></li>
+					<li><a href="">More Links</a></li>
+					<li><a href="">Another Link</a></li>
+				</ul>
+			</div>
+		</div>
+		<br class="clearboth">
+  	</div>
+	<div class="fltlft">
+    	<div class="tile three">
+			<img src="img/manual.png">
+			<h2><a href="">Manuals</a></h2>
+			<div class="label">
+				<ul>
+					<li><a href="">Link</a></li>
+					<li><a href="">Link</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="tile four">
+			<img src="img/calendar.png">
+			<h2><a href="">Calendar</a></h2>
+			<div class="label">
+				<ul>
+					<li><a href="">Link</a></li>
+					<li><a href="">Link</a></li>
+				</ul>
+			</div>
+		</div>
+		<br class="clearboth">
+	</div>
+	<br class="clearboth">
+  </div>
+  <div class="row">
+  	<div class="fltlft">
+    	<div class="tile five">
+    		<img src="img/tasks.png">
+			<h2><a href="">Tasks</a></h2>
+			<div class="label">
+				<ul>
+					<li><a href="">Link</a></li>
+					<li><a href="">Link</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="tile six">
+			<img src="img/contacts.png">
+			<h2><a href="">Contacts</a></h2>
+			<div class="label">
+				<ul>
+					<li><a href="">Link</a></li>
+					<li><a href="">Link</a></li>
+				</ul>
+			</div>
+		</div>
+		<br class="clearboth"> 
+	</div>
+	<div class="fltlft">
+    	<div class="tile seven">
+    		<img src="img/survey.png">
+			<h2><a href="">Surveys</a></h2>
+			<div class="label">
+				<ul>
+					<li><a href="">Link</a></li>
+					<li><a href="">Link</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="tile eight">
+			<img src="img/settings.png">
+			<h2><a href="">Settings</a></h2>
+			<div class="label">
+				<ul>
+					<li><a href="">Link</a></li>
+					<li><a href="">Link</a></li>
+				</ul>
+			</div>
+		</div>
+		<br class="clearboth">
+	</div>
+	<br class="clearboth">
+  </div>
+</div>
