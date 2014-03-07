@@ -35,17 +35,20 @@ Each "label" can contain a ul with added links, notes:
     		
 There are 3 tile sizes:
 
--125x125 square
--125x250 rectangle
--250x250 square
+<ul>
+<li>125x125 square</li>
+<li>125x250 rectangle</li>
+<li>250x250 square</li>
+</ul>
 
 There are 2 containers for different float combinations:
-
--mini-container: floats left
--micro-container: no float (used inside mini-container)
+<ul>
+<li>mini-container: floats left</li>
+<li>micro-container: no float (used inside mini-container)</li>
+</ul>
 
 License
 =======
-Copyright (c) 2013 Kacey Coughlin
+Feel free to use! Weeeeeeee!
 
 Licensed under the MIT license
